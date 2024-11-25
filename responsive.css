@@ -1,0 +1,197 @@
+@media screen and (max-width: 992px) {
+  .heroText {
+    width: 340px;
+  }
+
+  .heroText h2 {
+    font-size: 45px;
+  }
+  .heroText p {
+    font-size: 16px;
+  }
+  .heroInput {
+    width: 340px;
+  }
+  .heroSection div:nth-child(2) {
+    align-items: center;
+    margin-right: 10px;
+  }
+  .heroSection div:nth-child(2) img {
+    width: 370px;
+    height: 370px;
+  }
+
+  /* ----------- */
+
+  .clientDetail .clientImg img {
+    width: 400px;
+    height: 400px;
+  }
+  .numData div span:nth-child(1) {
+    font-size: 45px;
+  }
+
+  /* ------------------ */
+
+  .bottomText {
+    width: 340px;
+  }
+  .bottomText h3 {
+    font-size: 28px;
+  }
+  /* .bottomSection {
+    align-items: center;
+  } */
+  .bottomSection div:nth-child(2) img {
+    width: 400px;
+  }
+  .bottomInput {
+    width: 340px;
+  }
+  .bottomInput button {
+    padding: 10px 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroText {
+    width: 280px;
+  }
+  .heroText div {
+    width: 100%;
+  }
+
+  .heroText h5 {
+    font-size: 14px;
+  }
+  .heroText h2 {
+    font-size: 30px;
+  }
+  .heroInput {
+    width: 300px;
+    font-size: 14px;
+  }
+  .heroInput button {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+  .heroSection div:nth-child(2) img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .projects .proj-head h3 {
+    font-size: 30px;
+  }
+
+  /* ----- */
+
+  .clientHead h3 {
+    font-size: 30px;
+  }
+
+  .clientSec1 .inner h3 {
+    font-size: 25px;
+  }
+  .clientSec1 .inner p {
+    font-size: 14px;
+  }
+
+  .numData div span:nth-child(1) {
+    font-size: 30px;
+  }
+  .clientBtn button {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  .clientDetail .clientImg img {
+    width: 300px;
+    height: 320px;
+  }
+  .bottomText {
+    width: 300px;
+  }
+
+  .bottomText h3 {
+    font-size: 30px;
+  }
+
+  .bottomInput {
+    width: 280px;
+    font-size: 14px;
+  }
+  .bottomInput button {
+    padding: 8px 14px;
+    font-size: 14px;
+  }
+
+  .bottomSection div:nth-child(2) img {
+    width: 250px;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .heroSection {
+    flex-direction: column;
+    height: 100%;
+    padding-top: 20px;
+    align-items: center;
+  }
+  .heroText {
+    width: 80%;
+    margin: 0;
+  }
+  /* ---------------- */
+  .registration h3 {
+    font-size: 28px;
+  }
+  .queries h4 {
+    font-size: 20px;
+  }
+
+  /* ----- */
+
+  .clientDetail {
+    flex-direction: column;
+  }
+  .clientDetail .clientSec1 {
+    width: 100%;
+  }
+
+  .clientHead h3 {
+    width: 90%;
+    font-size: 26px;
+  }
+
+  .clientSec1 .inner h3 {
+    font-size: 20px;
+  }
+  .clientBtn {
+    margin-top: 10px;
+  }
+
+  .numData {
+    margin-top: 20px;
+  }
+
+  .clientDetail .clientImg img {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  /* ----------- */
+
+  .bottomSection{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bottomText{
+    width: 80%;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+}
